@@ -12,5 +12,5 @@ os.system(
 
 # unzip trained starspace embedding on my pc
 os.system(
-    'unzip starspace_embeddings/data/stackoverflow_duplicate.tsv.zip'
+    'unzip starspace_embeddings/data/stackoverflow_duplicate.tsv.zip -d  starspace_embeddings/data'
 )
